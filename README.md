@@ -1,2 +1,1 @@
-TUGAS KULIAH WEB PEMROGRAMAN
-![Uploading image.png…]()
+Website ini merupakan tugas kuliah Web Pemrograman yang mengangkat tema Museum Indonesia sebagai media informasi dan edukasi budaya. Website ini menyajikan berbagai koleksi peninggalan sejarah seperti senjata tradisional, candi, relief, prasasti, arca, serta artefak budaya lainnya yang mencerminkan kekayaan sejarah dan peradaban Indonesia.
