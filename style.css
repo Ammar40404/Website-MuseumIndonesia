@@ -1,0 +1,239 @@
+header {
+  background-image: url("Foto/museum\ bg.jpg"); 
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+  font-size: 40px;
+}
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("Foto/BatikBg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f0f0f0;
+}
+
+body.candi header {
+  background-image: url("Foto/candiHeader.jpg");
+}
+
+body.senjata header {
+  background-image: url("Foto/senjataHeader1.png");
+}
+
+body.Relief header {
+  background-image: url("Foto/ReliefBg.jpg");
+
+}
+
+body.Prasasti header {
+  background-image: url("Foto/Prasasti2.png");
+
+}
+
+body.Arca header {
+  background-image: url("Foto/arcabaground.jpg");
+
+}
+
+body.AlatMusik header {
+  background-image: url("Foto/alat\ musik\ header1.jpg");
+
+}
+
+nav {
+  background-color: #2f2d2a;
+  text-align: center;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.container {
+  flex: 1;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+.judulisi {
+  flex: 1;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  text-align: left; 
+  margin-bottom: 20px; 
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+
+}
+
+.indented-paragraph {  /*<p class="indented-paragraph">*/
+  text-indent: 40px; 
+}
+
+.read-more {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #ab5d09;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: transform 0.3s; 
+}
+
+
+.read-more:hover {
+  transform: scale(1.1); 
+}
+
+.read-more-refrensi {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #2709ab;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: transform 0.3s; 
+  
+}
+
+.read-more-refrensi:hover {
+  transform: scale(1.1); 
+}
+
+
+
+.video-and-text {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  flex: 0 0 calc(33.33% - 10px);
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.gallery-item p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.gallery-item a {
+  text-decoration: none;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+.Refrensi {
+  float: left;
+  margin-right: 20px; 
+  text-align: left;
+}
+
+.contact {
+  background-color: rgb(132, 127, 123);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.Penjelasan {
+  text-align: justify;
+  font-size: 20px;
+  margin: 18px;
+}
+
+.Lokasi {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  max-width: 100%; 
+  width: 40%; 
+  height: 300px; 
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-logo {
+  width: 30px; 
+  height: 30px; 
+  margin: 0 5px; 
+}
+
+.location-buttons {
+  margin-top: 10px;
+}
+
+
+footer {
+  background-color: #2f2d2a;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+
+
